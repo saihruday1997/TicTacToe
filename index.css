@@ -1,0 +1,89 @@
+body {
+  background: #4ac29a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #bdfff3,
+    #4ac29a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #bdfff3,
+    #4ac29a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#game-container {
+  margin: 10px 10px;
+  min-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: dimgray;
+  text-align: center;
+}
+
+#turn {
+  font-size: 50px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs {
+  width: 250px;
+}
+
+.centring {
+  width: 250px;
+  height: 50px;
+  color: White;
+  margin: 0 auto;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  cursor: grab;
+  font-size: 100px;
+  color: grey;
+}
+
+.win {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  font-size: 100px;
+  color: darksalmon;
+  text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.red {
+  color: darksalmon;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
